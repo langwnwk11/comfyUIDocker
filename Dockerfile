@@ -11,6 +11,6 @@ WORKDIR /home/ComfyUI/custom_nodes/
 RUN git clone $comfyManagerGit 
 WORKDIR /home
 RUN pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
-RUN pip install -r requirements.txt
+RUN pip install -r ComfyUI/requirements.txt
 
 
